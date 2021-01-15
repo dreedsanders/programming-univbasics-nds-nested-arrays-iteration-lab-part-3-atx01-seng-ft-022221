@@ -13,7 +13,6 @@ def join_nested_strings(src)
   row_index += 1 
 end 
 puts join_strings
-console.log(join_strings)
 end
 
   
