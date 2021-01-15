@@ -11,8 +11,7 @@ def join_nested_strings(src)
   end
   row_index += 1
 end 
-join_strings.join(" ")
-puts join_strings
+puts join_strings.join(" ")
 end
 
 
