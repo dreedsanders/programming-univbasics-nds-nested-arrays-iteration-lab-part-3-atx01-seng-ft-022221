@@ -12,7 +12,6 @@ def join_nested_strings(src)
   row_index += 1
 end 
 join_strings.join(" ")
-puts join_strings
 end
 
 mixed_data = [
