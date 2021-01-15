@@ -7,11 +7,11 @@ def join_nested_strings(src)
     if src[row_index][element_index].class==String 
       join_strings << src[row_index][element_index]
     end
-    join_strings.join(" ")
     element_index += 1 
   end
   row_index += 1
 end 
+join_strings.join(" ")
 puts join_strings
 end
 
